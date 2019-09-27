@@ -771,7 +771,32 @@ uint8_t IS_EXPO_THROTTLE( uint8_t x ) ;
 //28,AFHD2SA,PWM_IBUS,PPM_IBUS,PWM_SBUS,PPM_SBUS
 //29,Q2X2,Q222,Q242,Q282
 //30,WK2x01,WK2801,WK2401,W6_5_1,W6_6_1,W6_HEL,W6_HEL_I
-
+//31,Q303,Q303,CX35,CX10D,CX10WD
+//32,GW008
+//33,DM002
+//34,CABELL,CAB_V3,C_TELEM,-,-,-,-,F_SAFE,UNBIND
+//35,ESKY150
+//36,H8_3D,H8_3D,H20H,H20Mini,H30Mini
+//37,CORONA,COR_V1,COR_V2,FD_V3
+//38,CFlie
+//39,Hitec,OPT_FW,OPT_HUB,MINIMA
+//40,WFLY
+//41,BUGS
+//42,BUGSMINI,BUGSMINI,BUGS3H
+//43,Traxxas,RX6519
+//44,NCC1701
+//45,E01X,E012,E015,E016H
+//46,V911S
+//47,GD00X,GD_V1,GD_V2
+//48,V761
+//49,KF606
+//50,Redpine,Fast,Slow
+//51,Potensic,A20
+//52,ZSX,280
+//53,Flyzone,FZ-410
+//54,Scanner
+//55,FrskyX_RX,FCC,EU_LBT
+//63,XN_DUMP,250K,1M,2M
 
 #ifdef MULTI_PROTOCOL
 #define M_Flysky          0
@@ -813,7 +838,24 @@ uint8_t IS_EXPO_THROTTLE( uint8_t x ) ;
 #define M_CORONA         36
 #define M_CFlie          37
 #define M_Hitec          38
-#define M_LAST_MULTI		 38
+#define M_WFly           39
+#define M_BUGS           40
+#define M_BUGSMini       41
+#define M_Traxxas        42
+#define M_E01X           43
+#define M_E01X           44
+#define M_V911S          45
+#define M_GD00X          46
+#define M_V761           47
+#define M_KF606          48
+#define M_Redpine        49
+#define M_Potensic       50
+#define M_ZSX            51
+#define M_Flyzone        52
+#define M_Scanner        53
+#define M_FrskyX         54
+#define M_XN_Dump        62
+#define M_LAST_MULTI     62
 #endif // MULTI_PROTOCOL
 
 #define PXX_BIND					 0x01
