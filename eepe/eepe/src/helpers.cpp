@@ -60,7 +60,24 @@ QString MultiProtocols[] = {
 "NCC1701",
 "E01X",
 "V911S",
-"GD00X"
+"GD00X",
+"V761",
+"KF606",
+"Redpine",
+"Potensic",
+"ZSX",
+"Flyzone",
+"Scanner",
+"FrskyX_RX",
+"--56--",
+"--57--",
+"--58--",
+"--59--",
+"--60--",
+"--61--",
+"--62--",
+"--63--",	
+"XN_DUMP"
 } ;
 
 uint32_t MultiProtocolCount = sizeof( MultiProtocols ) ;
@@ -480,9 +497,45 @@ QString subSubProtocolText( int type, int index, QComboBox *b )
     case M_E01X :
 			names[0] = "E012" ;
 			names[1] = "E015" ;
+			names[2] = "E016H" ;
 		break ;
-		default :
+    case M_BUGSMini :
+			names[0] = "BUGSMINI" ;
+			names[1] = "BUGS3H" ;
+		break ;
+    case M_Traxxas :
+			names[0] = "RX6519" ;
+		break ;
+    case M_GD00X :
+			names[0] = "GD_V1" ;
+			names[1] = "GD_V2" ;
+		break ;
+    case M_Redpine :
+			names[0] = "Fast" ;
+			names[1] = "Slow" ;
+		break ;
+    case M_Potensic :
+			names[0] = "A20" ;
+		break ;
+    case M_ZSX :
+			names[0] = "280" ;
+		break ;
+    case M_Flyzone :
+			names[0] = "FZ-410" ;
+		break ;
+    case M_FrskyX :
+			names[0] = "FCC" ;
+			names[1] = "EU_LBT" ;
+		break ;
+    case M_XN_Dump :
+			names[0] = "250K" ;
+			names[1] = "1M" ;
+			names[2] = "2M" ;
+		break ;
+    			
+    default :
 			names[0] = "NONE" ;
+
 		break ;
 	}
 	if ( b )
