@@ -842,7 +842,7 @@ uint8_t IS_EXPO_THROTTLE( uint8_t x ) ;
 #define M_BUGS           40
 #define M_BUGSMini       41
 #define M_Traxxas        42
-#define M_E01X           43
+#define M_NCC1701        43
 #define M_E01X           44
 #define M_V911S          45
 #define M_GD00X          46
