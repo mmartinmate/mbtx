@@ -11798,7 +11798,7 @@ void menuSetFailsafe(uint8_t event)
 
 
 #ifdef MULTI_PROTOCOL
-#define MULTI_STR "\006FlyskyHubsanFrskyDHisky V2x2  DSM   Devo  YD717 KN    SymaX SLT   CX10  CG023 BayangFrskyXESky  MT99xxMJXq  ShenqiFY326 SFHSS J6PRO FQ777 ASSAN FrskyVHONTAIOpnLrsAFHD2SQ2X2  WK2x01Q303  GW008 DM002 CABELLESK150H8_3D CORONACFlie Hitec "
+#define MULTI_STR "\006FlyskyHubsanFrskyDHisky V2x2  DSM   Devo  YD717 KN    SymaX SLT   CX10  CG023 BayangFrskyXESky  MT99xxMJXq  ShenqiFY326 SFHSS J6PRO FQ777 ASSAN FrskyVHONTAIOpnLrsAFHD2SQ2X2  WK2x01Q303  GW008 DM002 CABELLESK150H8_3D CORONACFlie Hitec WFLY  BUGS  BUGSMNTraxxaNCC170E01X  V911S GD00X V761  KF606 RedpinPotensZSX   FlyzonScanneFSX_RXXNDUMP"
 const prog_char APM M_FLYSKY_STR[] = { 4, 6, 'F','l','y','s','k','y','V','9','x','9',' ',' ','V','6','x','6',' ',' ','V','9','1','2',' ',' ','C','X','2','0',' ',' ' } ;
 const prog_char APM M_HUBSAN_STR[] = { 2, 4, 'H','1','0','7','H','3','0','1','H','5','0','1' } ;
 const prog_char APM M_HISKY_STR[] = { 1, 5, 'H','i','s','k','y','H','K','3','1','0'} ;
@@ -11827,6 +11827,16 @@ const prog_char APM M_CABELL_STR[] = { 7, 6, 'C','A','B','_','V','3','C','_','T'
 const prog_char APM M_H8_3D_STR[] = { 3, 7, 'H','8','_','3','D',' ',' ','H','2','0','H',' ',' ',' ','H','2','0','M','i','n','i','H','3','0','M','i','n','i' } ;
 const prog_char APM M_CORONA_STR[] = { 2, 6, 'C','O','R','_','V','1','C','O','R','_','V','2','F','D','_','V','3',' ' } ;
 const prog_char APM M_HITEC_STR[] = {	2, 6, 'O','p','t','_','F','w','O','p','t','H','u','b','M','i','n','i','m','a' } ;
+const prog_char APM M_BUGSMini_STR[] = { 1, 8, 'B','U','G','S','M','I','N','I','B','U','G','S','3','H',' ',' '};
+const prog_char APM M_Traxxas_STR[] = { 0, 6, 'R','X','6','5','1','9'};		     
+const prog_char APM M_E01X_STR[] = { 2, 5, 'E','0','1','2',' ','E','0','1','5',' ','E','0','1','6','H' } ;			     
+const prog_char APM M_GD00X_STR[] = { 1, 5, 'G','D','_','V','1','G','D','_','V','2' };		     
+const prog_char APM M_Redpine_STR[] = { 1, 4,'F','a','s','t','S','l','o','w' };
+const prog_char APM M_Potensic_STR[] = { 0, 3, 'A','2','0'};		     			     
+const prog_char APM M_ZSX_STR[] = { 0, 3, '2','8','0'};		     			     			     
+const prog_char APM M_Flyzone_STR[] = { 0, 6, 'F','Z','-','4','1','0'};		     			     			     
+const prog_char APM M_FrskyX_RX_STR[] = { 1, 6,'F','C','C',' ',' ',' ','E','U','_','L','B','T' };
+const prog_char APM M_XN_Dump_STR[] = { 2, 4, '2','5','0','K','1','M',' ',' ','2','M',' ',' '} ;   			     
 #endif // MULTI_PROTOCOL
 
 const prog_char APM StrNZ_country[] = { FW*10, 2, 3, 'A','m','e','J','a','p','E','u','r'};
