@@ -853,7 +853,7 @@ uint8_t IS_EXPO_THROTTLE( uint8_t x ) ;
 #define M_ZSX            51
 #define M_Flyzone        52
 #define M_Scanner        53
-#define M_FrskyX         54
+#define M_FrskyX_RX      54
 #define M_XN_Dump        62
 #define M_LAST_MULTI     62
 #endif // MULTI_PROTOCOL
