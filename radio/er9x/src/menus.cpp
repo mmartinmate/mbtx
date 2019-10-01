@@ -13282,6 +13282,74 @@ extern uint8_t getExpectedSwitchState( uint8_t i ) ;
 					{
 						s = M_HITEC_STR ;
 					}
+					else if ( x == M_WFly )
+					{
+						s = M_WFly_STR ;
+					}
+					else if ( x == M_BUGS )
+					{
+						s = M_BUGS_STR ;
+					}
+					else if ( x == M_BUGSMini )
+					{
+						s = M_BUGSMini_STR ;
+					}
+					else if ( x == M_Traxxas )
+					{
+						s = M_Traxxas_STR ;
+					}
+					else if ( x == M_NCC1701 )
+					{
+						s = M_NCC1701_STR ;
+					}
+					else if ( x == M_E01X )
+					{
+						s = M_E01X_STR ;
+					}
+					else if ( x == M_V911S )
+					{
+						s = M_V911S_STR ;
+					}
+					else if ( x == M_GD00X )
+					{
+						s = M_GD00X_STR ;
+					}
+					else if ( x == M_V761 )
+					{
+						s = M_V761_STR ;
+					}
+					else if ( x == M_KF606 )
+					{
+						s = M_KF606_STR ;
+					}
+					else if ( x == M_Redpine )
+					{
+						s = M_Redpine_STR ;
+					}
+					else if ( x == M_Potensic )
+					{
+						s = M_Potensic_STR ;
+					}
+					else if ( x == M_ZSX )
+					{
+						s = M_ZSX_STR ;
+					}
+					else if ( x == M_Flyzone )
+					{
+						s = M_Flyzone_STR ;
+					}
+					else if ( x == M_Scanner )
+					{
+						s = M_Scanner_STR ;
+					}
+					else if ( x == M_FrskyX_RX )
+					{
+						s = M_FrskyX_RX_STR ;
+					}
+					else if ( x == M_XN_Dump )
+					{
+						s = M_XN_Dump_STR ;
+					}
 					else
 					{
 						s=PSTR("\000"M_NONE_STR);
