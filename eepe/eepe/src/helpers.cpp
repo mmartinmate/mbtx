@@ -489,7 +489,7 @@ QString subSubProtocolText( int type, int index, QComboBox *b )
 			names[1] = "COR_V2" ;
 			names[2] = "FD_V3" ;
 		break ;
-    case M_HITEC :
+    case M_Hitec :
 			names[0] = "OPT_FW" ;
 			names[1] = "OPT_HUB" ;
 			names[2] = "MINIMA" ;
@@ -523,7 +523,7 @@ QString subSubProtocolText( int type, int index, QComboBox *b )
     case M_Flyzone :
 			names[0] = "FZ-410" ;
 		break ;
-    case M_FrskyX :
+    case M_FrskyX_RX :
 			names[0] = "FCC" ;
 			names[1] = "EU_LBT" ;
 		break ;
