@@ -11837,6 +11837,14 @@ const prog_char APM M_ZSX_STR[] = { 0, 3, '2','8','0'};
 const prog_char APM M_Flyzone_STR[] = { 0, 6, 'F','Z','-','4','1','0'};		     			     			     
 const prog_char APM M_FrskyX_RX_STR[] = { 1, 6,'F','C','C',' ',' ',' ','E','U','_','L','B','T' };
 const prog_char APM M_XN_Dump_STR[] = { 2, 4, '2','5','0','K','1','M',' ',' ','2','M',' ',' '} ;   			     
+const prog_char APM M_WFly_STR[] = { 0, 4, 'W','F','l','y'}; 
+const prog_char APM M_BUGS_STR[] = { 0, 4, 'B','U','G','S'};
+const prog_char APM M_NCC1701_STR[] = { 0, 7, 'N','C','C','1','7','0','1'}; 
+const prog_char APM M_V911S_STR[] = { 0, 5, 'V','9','1','1','S'}; 
+const prog_char APM M_V761_STR[] = { 0, 4, 'V','7','6','1'}; 
+const prog_char APM M_KF606_STR[] = { 0, 5, 'K','F','6','0','6'};
+const prog_char APM M_Scanner_STR[] = { 0, 7, 'S','c','a','n','n','e','r'};
+  
 #endif // MULTI_PROTOCOL
 
 const prog_char APM StrNZ_country[] = { FW*10, 2, 3, 'A','m','e','J','a','p','E','u','r'};
