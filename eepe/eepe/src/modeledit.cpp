@@ -969,7 +969,7 @@ void ModelEdit::setSubSubProtocol( QComboBox *b, int type )
 			b->addItem("MINIMA");
 			x = 3 ;
 		break ;	
-		case M_BUGSMINI:
+		case M_BUGSMini:
 			b->addItem("BUGSMINI");
 			b->addItem("BUGS3H");
 			x = 2 ;
@@ -1011,7 +1011,7 @@ void ModelEdit::setSubSubProtocol( QComboBox *b, int type )
 			b->addItem("EU_LBT");
 			x = 2 ;
 		break ;	
-		case M_XN_DUMP:
+		case M_XN_Dump:
 			b->addItem("250K");
 			b->addItem("1M");
 			b->addItem("2M");
