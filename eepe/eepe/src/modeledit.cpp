@@ -859,7 +859,7 @@ void ModelEdit::setSubSubProtocol( QComboBox *b, int type )
 			b->addItem("YD717");
 			b->addItem("SKYWLKR");
 			b->addItem("SYMAX2");
-      b->addItem("XINXUN");
+      			b->addItem("XINXUN");
 			b->addItem("NIHUI");
 			x = 5 ;
 		break ;
@@ -898,6 +898,125 @@ void ModelEdit::setSubSubProtocol( QComboBox *b, int type )
 			b->addItem("H26D");
 			x = 4 ;
 		break ;
+		case M_FY326 :
+			b->addItem("FY326");
+			b->addItem("FY319");
+			x = 2 ;
+		break ;
+		case M_HONTAI:
+			b->addItem("HONTAI");
+			b->addItem("JJRCX1");
+			b->addItem("X5C1");
+      			b->addItem("FQ777_951");
+			x = 4 ;
+		break ;
+		case M_AFHDS2A:
+			b->addItem("PWM_IBUS");
+			b->addItem("PPM_IBUS");
+			b->addItem("PWM_SBUS");
+      			b->addItem("PPM_SBUS");
+			x = 4 ;
+		break ;
+		case M_Q2X2:
+			b->addItem("Q222");
+			b->addItem("Q242");
+			b->addItem("Q282");
+      			x = 3 ;
+		break ;
+		case M_WK2x01:
+			b->addItem("WK2801");
+			b->addItem("WK2401");
+			b->addItem("W6_5_1");
+			b->addItem("W6_6_1");
+			b->addItem("W6_HEL");
+			b->addItem("W6_HEL_I");
+      			x = 6 ;
+		break ;	
+		case M_Q303:
+			b->addItem("Q303");
+			b->addItem("CX35");
+			b->addItem("CX10D");
+			b->addItem("CX10WD");
+			x = 4 ;
+		break ;	
+		case M_CABELL:
+			b->addItem("CAB_V3");
+			b->addItem("C_TELEM");
+			b->addItem("-");
+			b->addItem("-");
+			b->addItem("-");
+			b->addItem("-");
+			b->addItem("F_SAFE");
+			b->addItem("UNBIND");
+			x = 8 ;
+		break ;	
+		case M_H8_3D:
+			b->addItem("H8_3D");
+			b->addItem("H20H");
+			b->addItem("H20Mini");
+			b->addItem("H30Mini");
+			x = 4 ;
+		break ;	
+		case M_CORONA:
+			b->addItem("COR_V1");
+			b->addItem("COR_V2");
+			b->addItem("FD_V3");
+			x = 3 ;
+		break ;	
+		case M_Hitec:
+			b->addItem("OPT_FW");
+			b->addItem("OPT_HUB");
+			b->addItem("MINIMA");
+			x = 3 ;
+		break ;	
+		case M_BUGSMINI:
+			b->addItem("BUGSMINI");
+			b->addItem("BUGS3H");
+			x = 2 ;
+		break ;	
+		case M_Traxxas:
+			b->addItem("RX6519");
+			x = 1 ;
+		break ;	
+		case M_E01X:
+			b->addItem("E012");
+			b->addItem("E015");
+			b->addItem("E016H");
+			x = 3 ;
+		break ;	
+		case M_GD00X:
+			b->addItem("GD_V1");
+			b->addItem("GD_V2");
+			x = 2 ;
+		break ;	
+		case M_Redpine:
+			b->addItem("Fast");
+			b->addItem("Slow");
+			x = 2 ;
+		break ;	
+		case M_Potensic:
+			b->addItem("A20");
+			x = 1 ;
+		break ;	
+		case M_ZSX:
+			b->addItem("200");
+			x = 1 ;
+		break ;	
+		case M_Flyzone:
+			b->addItem("FZ-410");
+			x = 1 ;
+		break ;	
+		case M_FrskyX_RX:
+			b->addItem("FCC");
+			b->addItem("EU_LBT");
+			x = 2 ;
+		break ;	
+		case M_XN_DUMP:
+			b->addItem("250K");
+			b->addItem("1M");
+			b->addItem("2M");
+			x = 3 ;
+		break ;	
 		default :
 			b->addItem("NONE");
 			x = 1 ;
